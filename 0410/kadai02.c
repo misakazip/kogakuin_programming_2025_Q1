@@ -9,7 +9,6 @@ int main(void){
     syuu = 2*a + 2*b;
     menseki = a*b;
 
-    printf("長方形の周の長さ：%d\n", syuu);
-    printf("長方形の面積：%d\n", menseki);
-
+    printf("長方形の周の長さ：%d\n長方形の面積：%d", syuu,menseki);
+    return 0;
 }
