@@ -1,0 +1,19 @@
+{
+    "recommendations": [
+      "ms-vscode.cpptools",
+      "ms-vscode.cpptools-themes",
+      "ms-vscode.cpptools-extension-pack",
+      "ms-dotnettools.csharp",
+      "ms-dotnettools.csdevkit",
+      "formulahendry.code-runner",
+      "ms-ceintl.vscode-language-pack-ja"
+    ],
+    "unwantedRecommendations": [
+        "github.copilot-chat",
+        "github.copilot",
+        "GitHub.copilot-labs",
+        "GitHub.copilot-labs-chat",
+        "GitHub.copilot-labs-issues",
+        "GitHub.copilot-labs-pull-requests",
+    ]
+}
