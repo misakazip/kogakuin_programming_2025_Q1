@@ -1,0 +1,14 @@
+{
+    "name": "大学用テンプレート(C言語)",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "postCreateCommand": "sudo apt update",
+    "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-themes",
+        "ms-vscode.cpptools-extension-pack",
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.csdevkit",
+        "formulahendry.code-runner",
+        "ms-ceintl.vscode-language-pack-ja"
+    ]
+}
