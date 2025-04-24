@@ -48,8 +48,8 @@ int main(void){
             break;
 
         default:
-        printf("不正な値です。");
-        return 1;
+            printf("不正な値です。");
+            return 1;
     }
     return 0;
 }
