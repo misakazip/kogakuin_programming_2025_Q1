@@ -37,9 +37,19 @@ int main(void){
                     }
                     break;
             }
+        case 1:
+        case 3:
+        case 5:
+        case 7:
+        case 8:
+        case 10:
+        case 12:
+            printf("31\n");
+            break;
+
         default:
-        printf("31\n");
-        break;
+        printf("不正な値です。");
+        return 1;
     }
     return 0;
 }
