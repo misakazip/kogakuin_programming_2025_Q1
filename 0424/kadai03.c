@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <time.h>
 
 int main(void){
     int year, month;
@@ -37,6 +36,7 @@ int main(void){
                     }
                     break;
             }
+            break;
         case 1:
         case 3:
         case 5:
