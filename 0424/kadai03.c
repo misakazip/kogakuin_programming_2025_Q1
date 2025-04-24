@@ -2,7 +2,7 @@
 #include <time.h>
 
 int main(void){
-    int rand_num , year, month;
+    int year, month;
     scanf("%d", &year);
     scanf("%d", &month);
 
