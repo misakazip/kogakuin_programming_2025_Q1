@@ -1,14 +1,11 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 int main(void){
-    int rand_num;
+    int num;
     
-    srand((unsigned int)time(NULL));
-    rand_num = (rand()%13)+1;
+    scanf("%d", &num);
     
-    switch(rand_num){
+    switch(num){
         case 1:
             printf("A\n");
             break;
@@ -26,6 +23,6 @@ int main(void){
             break;
         
         default:
-            printf("%d\n", rand_num);
+            printf("%d\n", num);
     }
 }
